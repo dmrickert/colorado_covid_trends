@@ -7,8 +7,6 @@ import dash_html_components as html
 import pandas as pd
 import plotly.graph_objs as go
 
-#current_path = os.path.dirname(os.path.realpath(__file__))
-#csv_path = os.path.join(current_path, '..', 'data', 'colorado_covid_data.csv')
 csv_url = 'https://raw.githubusercontent.com/dmrickert/colorado_covid_trends/master/data/colorado_covid_data.csv'
 df = pd.read_csv(csv_url, parse_dates=['Date'])
 
