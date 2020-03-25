@@ -34,7 +34,7 @@ trace_scat_death = go.Scatter(x=df['Date'], y=df['# Death'], name="# dead")
 
 app.layout = html.Div(style={'backgroundColor': colors['background']}, children=[
     html.H1(
-        children='Colorado Covid Trends',
+        children='Colorado COVID-19 Trends',
         style={
             'textAlign': 'center',
             'color': colors['text']
